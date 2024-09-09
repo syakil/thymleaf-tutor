@@ -11,7 +11,7 @@
 	<groupId>com.mvctutor</groupId>
 	<artifactId>thymleaf</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>thymleaf</name>
+	<name>thymeleaf</name>
 	<description>tutorial spring mvc</description>
 	<url/>
 	<licenses>
@@ -63,6 +63,14 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
+		</dependency>
+		<dependency>
+			<groupId>nz.net.ultraq.thymeleaf</groupId>
+			<artifactId>thymeleaf-layout-dialect</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>org.thymeleaf.extras</groupId>
+			<artifactId>thymeleaf-extras-springsecurity6</artifactId>
 		</dependency>
 	</dependencies>
 
